@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel config exports correctly 1`] = `
+Array [
+  "/Users/max.clayton/Development/mcclowes/babel-preset-mcclowes/node_modules/@babel/preset-env/lib/index.js",
+  "/Users/max.clayton/Development/mcclowes/babel-preset-mcclowes/node_modules/@babel/preset-react/lib/index.js",
+  "/Users/max.clayton/Development/mcclowes/babel-preset-mcclowes/node_modules/@babel/preset-stage-0/lib/index.js",
+]
+`;
+
+exports[`babel config exports correctly 2`] = `
+Array [
+  "/Users/max.clayton/Development/mcclowes/babel-preset-mcclowes/node_modules/@babel/plugin-syntax-dynamic-import/lib/index.js",
+  "/Users/max.clayton/Development/mcclowes/babel-preset-mcclowes/node_modules/@babel/plugin-transform-regenerator/lib/index.js",
+  Array [
+    "/Users/max.clayton/Development/mcclowes/babel-preset-mcclowes/node_modules/@babel/plugin-transform-runtime/lib/index.js",
+    Object {
+      "polyfill": false,
+    },
+  ],
+]
+`;
+
+exports[`eslint config exports correctly 1`] = `
+Object {
+  "array-bracket-spacing": Array [
+    "warn",
+    "always",
+  ],
+  "comma-dangle": Array [
+    "warn",
+    "always",
+  ],
+  "comma-spacing": Array [
+    "warn",
+    Object {
+      "after": true,
+      "before": false,
+    },
+  ],
+  "guard-for-in": "off",
+  "lines-around-directive": Array [
+    "warn",
+    "always",
+  ],
+  "no-unused-expressions": Array [
+    "warn",
+    Object {
+      "allowShortCircuit": true,
+      "allowTaggedTemplates": true,
+      "allowTernary": true,
+    },
+  ],
+  "no-unused-vars": Array [
+    "warn",
+    Object {
+      "argsIgnorePattern": "_+",
+      "ignoreRestSiblings": true,
+      "varsIgnorePattern": "_+",
+    },
+  ],
+  "object-curly-spacing": Array [
+    "warn",
+    "always",
+  ],
+  "object-property-newline": Array [
+    "warn",
+    Object {
+      "allowMultiplePropertiesPerLine": true,
+    },
+  ],
+  "quotes": Array [
+    "warn",
+    "double",
+  ],
+  "react/boolean-prop-naming": Array [
+    "error",
+    Object {
+      "propTypeNames": Array [
+        "bool",
+        "mutuallyExclusiveTrueProps",
+      ],
+    },
+  ],
+  "react/jsx-curly-spacing": Array [
+    "warn",
+    "always",
+  ],
+  "react/jsx-equals-spacing": Array [
+    "warn",
+    "always",
+  ],
+  "react/jsx-first-prop-new-line": Array [
+    "warn",
+    "multiline",
+  ],
+  "react/jsx-wrap-multilines": 1,
+  "react/no-array-index-key": 1,
+  "react/prop-types": 1,
+  "react/self-closing-comp": Array [
+    "error",
+    Object {
+      "component": true,
+      "html": true,
+    },
+  ],
+  "react/sort-prop-types": 1,
+  "space-infix-ops": Array [
+    "warn",
+  ],
+  "template-curly-spacing": Array [
+    "warn",
+    "always",
+  ],
+}
+`;

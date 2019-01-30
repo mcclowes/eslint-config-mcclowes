@@ -15,18 +15,15 @@ module.exports = {
 
   rules: {
     'array-bracket-spacing': ['warn', 'always'],
-    semi: ['warn', 'always'],
     'comma-dangle': ['warn', 'always'],
     'comma-spacing': [
-      'warn',
-      {
+      'warn', {
         before: false,
         after: true,
       },
     ],
-    
+
     'guard-for-in': 'off',
-    indent: ['warn', 'tab'],
     'lines-around-directive': ['warn', 'always'],
     quotes: ['warn', 'double'],
     'object-curly-spacing': ['warn', 'always'],
@@ -34,8 +31,7 @@ module.exports = {
     'template-curly-spacing': ['warn', 'always'],
 
     'react/boolean-prop-naming': [
-      'error',
-      {
+      'error', {
         propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
       },
     ],
@@ -44,8 +40,7 @@ module.exports = {
     'react/prop-types': 1,
     'react/sort-prop-types': 1,
     'react/self-closing-comp': [
-      'error',
-      {
+      'error', {
         component: true,
         html: true,
       },
@@ -54,13 +49,10 @@ module.exports = {
     'react/jsx-curly-spacing': ['warn', 'always'],
     'react/jsx-equals-spacing': ['warn', 'always'],
     'react/jsx-first-prop-new-line': ['warn', 'multiline'],
-    'react/jsx-indent': ['warn', 'tab'],
-    'react/jsx-indent-props': ['warn', 'tab'],
     'react/jsx-wrap-multilines': 1,
 
     'no-unused-vars': [
-      'warn',
-      {
+      'warn', {
         argsIgnorePattern: '_+',
         varsIgnorePattern: '_+',
         ignoreRestSiblings: true,
@@ -68,15 +60,13 @@ module.exports = {
     ],
 
     'object-property-newline': [
-      'warn',
-      {
+      'warn', {
         allowMultiplePropertiesPerLine: true,
       },
     ],
 
     'no-unused-expressions': [
-      'warn',
-      {
+      'warn', {
         allowShortCircuit: true,
         allowTernary: true,
         allowTaggedTemplates: true,

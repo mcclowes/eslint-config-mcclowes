@@ -8,10 +8,9 @@
 	"eslintConfig": {
 		"extends": "./index.js"
 	},
-	"babel": {
-		"presets": [
-			"mcclowes"
-		]
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch --runInBand --bail"
 	},
 	"dependencies": {
 		"babel-eslint": "^10.0.1",
@@ -20,5 +19,8 @@
 		"eslint-plugin-import": "^2.14.0",
 		"eslint-plugin-jsx-a11y": "^5.1.1",
 		"eslint-plugin-react": "^7.11.1"
+	},
+	"devDependencies": {
+		"jest": "^24.0.0"
 	}
 }
