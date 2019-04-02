@@ -1,8 +1,6 @@
 module.exports = {
-  extends: 'react-app',
-
-  globals: {
-    PENIS: true,
+  'extends': 'react-app',
+  'globals': {
     R: true,
     React: true,
     Consts: true,
@@ -10,10 +8,17 @@ module.exports = {
     __DEV__: true,
     graphql: true,
   },
-
-  plugins: ['react'],
-
-  rules: {
+  'parserOptions': {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+    }
+  },
+  'plugins': [
+    'react'
+  ],
+  'rules': {
     'array-bracket-spacing': ['warn', 'always'],
     'comma-dangle': ['warn', 'always'],
     'comma-spacing': [
@@ -22,20 +27,17 @@ module.exports = {
         after: true,
       },
     ],
-
     'guard-for-in': 'off',
     'lines-around-directive': ['warn', 'always'],
-    quotes: ['warn', 'double'],
+    'quotes': ['warn', 'double'],
     'object-curly-spacing': ['warn', 'always'],
     'space-infix-ops': ['warn'],
     'template-curly-spacing': ['warn', 'always'],
-
     'react/boolean-prop-naming': [
       'error', {
         propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
       },
     ],
-
     'react/no-array-index-key': 1,
     'react/prop-types': 1,
     'react/sort-prop-types': 1,
@@ -45,12 +47,10 @@ module.exports = {
         html: true,
       },
     ],
-
     'react/jsx-curly-spacing': ['warn', 'always'],
     'react/jsx-equals-spacing': ['warn', 'always'],
     'react/jsx-first-prop-new-line': ['warn', 'multiline'],
     'react/jsx-wrap-multilines': 1,
-
     'no-unused-vars': [
       'warn', {
         argsIgnorePattern: '_+',
@@ -58,13 +58,11 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-
     'object-property-newline': [
       'warn', {
         allowMultiplePropertiesPerLine: true,
       },
     ],
-
     'no-unused-expressions': [
       'warn', {
         allowShortCircuit: true,
